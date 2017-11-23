@@ -34,20 +34,12 @@
                             <constraint firstItem="WBf-6J-xX2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bpe-tA-iKS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="o2M-bj-33o" appends="YES" id="bAu-aL-4m8"/>
-                        </connections>
                     </view>
                     <connections>
                         <outlet property="textField" destination="WBf-6J-xX2" id="XqT-Eh-GRL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="o2M-bj-33o">
-                    <connections>
-                        <action selector="tap:" destination="BYZ-38-t0r" id="ccv-s8-Ii3"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
         </scene>
     </scenes>

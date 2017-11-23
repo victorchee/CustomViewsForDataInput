@@ -19,5 +19,12 @@ class Keyboard: UIView {
     @IBAction func buttonTapped(_ sender: UIButton) {
         guard let key = sender.title(for: .normal) else { return }
         delegate?.keyTapped(key: key)
+        UIDevice.current.playInputClick()
+    }
+}
+
+extension Keyboard: UIInputViewAudioFeedback {
+    var enableInputClicksWhenVisible: Bool {
+        return true
     }
 }
