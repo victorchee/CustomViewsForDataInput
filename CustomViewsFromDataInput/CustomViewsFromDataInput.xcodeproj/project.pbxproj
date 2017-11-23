@@ -14,6 +14,8 @@
 		1F32D4F11FC6554000AAFE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F32D4EF1FC6554000AAFE8C /* LaunchScreen.storyboard */; };
 		1F32D4FC1FC6554000AAFE8C /* CustomViewsFromDataInputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32D4FB1FC6554000AAFE8C /* CustomViewsFromDataInputTests.swift */; };
 		1F32D5071FC6554000AAFE8C /* CustomViewsFromDataInputUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32D5061FC6554000AAFE8C /* CustomViewsFromDataInputUITests.swift */; };
+		1F32D5151FC655F800AAFE8C /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F32D5141FC655F800AAFE8C /* Keyboard.xib */; };
+		1F32D5171FC656B300AAFE8C /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32D5161FC656B300AAFE8C /* Keyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1F32D5021FC6554000AAFE8C /* CustomViewsFromDataInputUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomViewsFromDataInputUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F32D5061FC6554000AAFE8C /* CustomViewsFromDataInputUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewsFromDataInputUITests.swift; sourceTree = "<group>"; };
 		1F32D5081FC6554000AAFE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F32D5141FC655F800AAFE8C /* Keyboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
+		1F32D5161FC656B300AAFE8C /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				1F32D4E61FC6554000AAFE8C /* AppDelegate.swift */,
 				1F32D4E81FC6554000AAFE8C /* ViewController.swift */,
 				1F32D4EA1FC6554000AAFE8C /* Main.storyboard */,
+				1F32D5141FC655F800AAFE8C /* Keyboard.xib */,
+				1F32D5161FC656B300AAFE8C /* Keyboard.swift */,
 				1F32D4ED1FC6554000AAFE8C /* Assets.xcassets */,
 				1F32D4EF1FC6554000AAFE8C /* LaunchScreen.storyboard */,
 				1F32D4F21FC6554000AAFE8C /* Info.plist */,
@@ -234,6 +240,7 @@
 			files = (
 				1F32D4F11FC6554000AAFE8C /* LaunchScreen.storyboard in Resources */,
 				1F32D4EE1FC6554000AAFE8C /* Assets.xcassets in Resources */,
+				1F32D5151FC655F800AAFE8C /* Keyboard.xib in Resources */,
 				1F32D4EC1FC6554000AAFE8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F32D4E91FC6554000AAFE8C /* ViewController.swift in Sources */,
+				1F32D5171FC656B300AAFE8C /* Keyboard.swift in Sources */,
 				1F32D4E71FC6554000AAFE8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
